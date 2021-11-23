@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    font-family: 'Red Hat Display';
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    position: relative;
+}
+
+.order-card{
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 20px 30px hsl(224, 23%, 55%);
+}
+
+.order-img{
+    margin: 0;
+}
+
+.order-img > img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.order-summary{
+    background-color: white;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.order-descrp{
+    text-align: center;
+}
+
+.order-descrp > h1{
+    font-style: bold;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-descrp > p{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 65px 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.sub-descrp{
+    background-color: hsl(225, 100%, 98%);
+    margin: 10px 40px 20px;
+    border-radius: 1em;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-icon{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+} 
+
+.sub-details{
+    margin: 20px 0 20px -80px;
+}
+
+.sub-details > h4{
+    font-style: bold;
+    font-weight: 900;
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+}
+
+.sub-details > h6{
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+}
+
+.sub-change{
+    margin: 35px 20px 0 0;
+    text-align: center;
+}
+
+.sub-change > a{
+    font-weight: 900;
+    font-size: 12px;
+    font-style: bold;
+    color: hsl(245, 75%, 52%);
+}
+
+.sub-change > a:active{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
+
+.order-buttons{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.order-buttons > button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 20px 1px hsl(245, 25%, 75%);
+}
+
+.order-buttons > button:active{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.order-cancel{
+    padding: 20px 0;
+}
+
+.order-cancel > a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-style: bold;
+    font-size: 13px;
+}
+
+.order-cancel > a:active{
+    color: hsl(223, 47%, 23%);
+}

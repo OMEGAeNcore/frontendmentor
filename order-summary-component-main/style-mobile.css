@@ -1,0 +1,26 @@
+body{
+    background-size: 100% 30%; 
+}
+
+.order-card{
+    width: 330px;
+}
+
+.order-summary{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.order-descrp > p{  
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 35px 30px;
+}
+
+.sub-descrp{
+    margin: 10px 25px 20px;
+}
+
+.sub-details{
+    margin: 20px 0 20px -20px;
+}
