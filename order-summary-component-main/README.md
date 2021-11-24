@@ -51,7 +51,7 @@ Linking multiple CSS sheets, for different devices:
 Adding fonts of different styles, by using google fonts:
 
 ```
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">  
 
