@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [FAQ Accordion Card Component](https://github.com/OMEGAeNcore/frontendmentor/tree/main/faq-accordion-card-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://faq-accordion-card-component.herokuapp.com/](https://faq-accordion-card-component.herokuapp.com/)
 
 ## My process
 
