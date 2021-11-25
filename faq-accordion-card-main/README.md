@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FAQ Accordion Card Component](https://github.com/OMEGAeNcore/frontendmentor/tree/main/faq-accordion-card-main)
+- Solution URL: [FAQ Accordion Card Component](https://www.frontendmentor.io/solutions/responsive-faq-component-using-only-html-and-css-wKxqMYkpQ)
 - Live Site URL: [https://faq-accordion-card-component.herokuapp.com/](https://faq-accordion-card-component.herokuapp.com/)
 
 ## My process

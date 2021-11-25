@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Order Summary Component](https://github.com/OMEGAeNcore/frontendmentor/tree/main/order-summary-component-main)
+- Solution URL: [Order Summary Component](https://www.frontendmentor.io/solutions/responsive-order-summary-component-using-only-html-and-css-qr5daG9xH)
 - Live Site URL: [https://order-summary-component-omega.herokuapp.com/](https://order-summary-component-omega.herokuapp.com/)
 
 ## My process
