@@ -11,10 +11,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -30,14 +28,16 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Version
+
 [<img src="./screenshot-desktop.PNG" alt="Desktop version" />](./screenshot-desktop.PNG)
 - Mobile Version
+
 [<img src="./screenshot-mobile.PNG" alt="Mobile version" />](./screenshot-mobile.PNG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FAQ Accordion Card Component](https://github.com/OMEGAeNcore/frontendmentor/tree/main/faq-accordion-card-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -53,38 +53,47 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+Using Style sheets for different device width range
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  <link rel="stylesheet" href="./style-desk.css" media="screen and (min-width:951px)">
+  <link rel="stylesheet" href="./style-desk-750-950.css" media="screen and (min-width: 650px) and (max-width:950px)">
+  <link rel="stylesheet" href="./style-mob.css" media="screen and (max-width:400px)">
+  <link rel="stylesheet" href="./style-mob-350-750.css" media="screen and (min-width: 401px) and (max-width:649px)">
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Usage of same image by using them at different angles
+  - HTML code:
+  ```html
+    <span class="icon-open"><img src="./images/icon-arrow-down.svg" alt="arrow-down"></span>
+    <span class="icon-close"><img src="./images/icon-arrow-down.svg" alt="arrow-up" class="reverse-arrow"></span>
+  ```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+  - CSS code:
+  ```css
+    .reverse-arrow{
+        transform: rotate(180deg);
+    }
+  ```
 
-### Continued development
+Custom Dividers
+  - HTML code:
+  ```html
+    <hr class="divider">
+  ```
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+  - CSS code:
+  ```css
+    .divider{
+      border: 0;
+      border-bottom: 2px solid  hsl(240, 5%, 91%); 
+    }
+  ```
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Overlapping Images using CSS](https://bricampgomez.com/blog/how-to-overlap-images-in-css/) - This helped me create the image theme of the component card. I really liked this pattern and will use it and also improve on it going forward.
+- [Rotate Image using CSS](https://code-boxx.com/rotate-spin-image-html-css/#sec-basics) - This article helped me review how to make use of simple CSS for making an image rotate.
+- [Responsive FAQ accordion dropdown | HTML and CSS Tutorial](https://www.youtube.com/watch?v=MXrtXg1kpVs) - Check out this tutorial. This video helped me out a lot with applying the accordion concept.
 
 ## Author
 
