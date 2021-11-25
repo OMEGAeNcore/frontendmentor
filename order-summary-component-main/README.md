@@ -30,6 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Order Summary Component](https://github.com/OMEGAeNcore/frontendmentor/tree/main/order-summary-component-main)
+- Live Site URL: [https://order-summary-component-omega.herokuapp.com/](https://order-summary-component-omega.herokuapp.com/)
 
 ## My process
 
