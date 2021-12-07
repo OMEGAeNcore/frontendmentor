@@ -29,11 +29,11 @@ Users should be able to:
 
 - Desktop Version Preview
 
-![<img src="../screenshots/desktop-theme1.png" alt="Desktop Version"/>](../screenshots/desktop-theme1.png)
+[<img src="./screenshots/desktop-theme1.png" alt="Desktop Version"/>](./screenshots/desktop-theme1.png)
 
 - Mobile Version Preview
 
-![<img src="../screenshots/mobile-theme1.png" alt="Mobile Version"/>](../screenshots/mobile-theme1.png)
+[<img src="./screenshots/mobile-theme1.png" alt="Mobile Version"/>](./screenshots/mobile-theme1.png)
 
 **Note: There are more screenshots available for different themes. Check the screenshots folder.**
 
