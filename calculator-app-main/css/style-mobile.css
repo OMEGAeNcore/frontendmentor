@@ -1,0 +1,31 @@
+.main-body{
+    width: 300px;
+}
+
+.header{
+    grid-template-columns: repeat(2, .5fr);
+}
+
+.screen {
+    /* width: 100px; */
+}
+
+.keys{
+    /* width: 300px; */
+}
+
+.keys span{
+    font-size: 20px;
+    width: 56px;
+    height: 56px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.cal-row{
+    margin: 7px 15px;
+}
+
+.attribution {
+    margin: 0 auto;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="./css/style-desk.css">
+  <link rel="stylesheet" href="./css/style-theme1.css" title="theme1">
+  <link rel="stylesheet" href="./css/style-theme2.css" title="theme2">
+  <link rel="stylesheet" href="./css/style-theme3.css" title="theme3">
+  <link rel="stylesheet" href="./css/style-mobile.css" media="screen and (max-width: 550px)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="main-body">
+      <div class="header" id="header">
+        <div class="app-name">
+          <h2>calc</h2>
+        </div>
+
+        <div class="theme-changer">
+          <div class="theme-options">
+            <h6>1</h6>
+            <h6>2</h6>
+            <h6>3</h6>
+          </div>
+
+          <div class="theme-switch">
+            <h6>THEME</h6>
+            <div class="switch" id="switch">
+              <input type="radio" name="switch" id="one" onclick="themeChanger('theme1')" checked>
+              <label for="one" class="switch__label"></label>
+              
+              <input type="radio" name="switch" id="two" onclick="themeChanger('theme2')" >
+              <label for="two" class="switch__label"></label>
+              
+              <input type="radio" name="switch" id="three" onclick="themeChanger('theme3')" >
+              <label for="three" class="switch__label"></label>
+    
+              <div class="switch__indicator"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen"></div>
+
+      <div class="keys" id="calculator">
+        <div class="cal-row">
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span class="delete">DEL</span>
+        </div>
+
+        <div class="cal-row">
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span class="operator">+</span>
+        </div>
+
+        <div class="cal-row">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span class="operator">-</span>
+        </div>
+
+        <div class="cal-row">
+          <span>.</span>
+          <span>0</span>
+          <span class="operator">/</span>
+          <span class="operator">x</span>
+        </div>
+
+        <div class="cal-row">
+          <span class="clear">RESET</span>
+          <span class="eval">=</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ipshita Chakraborty</a>.
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/script-theme.js"></script>
+</body>
+</html>

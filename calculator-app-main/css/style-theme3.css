@@ -1,0 +1,31 @@
+body{
+    background-color: hsl(268, 75%, 9%);
+}
+.header{
+    color: hsl(52, 100%, 62%);
+}
+.switch{
+    background-color: hsl(268, 71%, 12%);
+}
+.screen{
+    color: hsl(52, 100%, 62%);
+	background: hsl(268, 71%, 12%);
+}
+.keys{
+    background-color: hsl(268, 71%, 12%);
+}
+.keys span{
+	background: hsl(281, 89%, 26%);
+	box-shadow: 0px 4px hsl(285, 91%, 52%);
+	color: hsl(52, 100%, 62%);
+}
+.keys .delete, .keys .clear{
+    color: white;
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 4px hsl(290, 70%, 36%);
+}
+.keys .eval{
+    color: hsl(198, 20%, 13%);
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0 4px hsl(177, 92%, 70%);
+}
