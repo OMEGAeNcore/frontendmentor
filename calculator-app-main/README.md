@@ -29,17 +29,17 @@ Users should be able to:
 
 - Desktop Version Preview
 
-[<img src="../screenshots/desktop-theme1.png" alt="Desktop Version"/>](./screenshots/desktop-theme1.png)
+![<img src="../screenshots/desktop-theme1.png" alt="Desktop Version"/>](./screenshots/desktop-theme1.png)
 
 - Mobile Version Preview
 
-[<img src="../screenshots/mobile-theme1.png" alt="Mobile Version"/>](./screenshots/mobile-theme1.png)
+![<img src="../screenshots/mobile-theme1.png" alt="Mobile Version"/>](./screenshots/mobile-theme1.png)
 
 **Note: There are more screenshots available for different themes. Check the screenshots folder.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-calculator-app-using-multiple-themes-saUMnm4T5](https://www.frontendmentor.io/solutions/responsive-calculator-app-using-multiple-themes-saUMnm4T5)
 - Live Site URL: [https://calculator-app-omega.herokuapp.com/](https://calculator-app-omega.herokuapp.com/)
 
 ## My process
